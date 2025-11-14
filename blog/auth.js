@@ -123,6 +123,16 @@ export async function getIdToken() {
   return null;
 }
 
+// Obter avatar do usuário (com fallback)
+export function getUserAvatar() {
+  if (currentUser?.photoURL) {
+    return currentUser.photoURL;
+  }
+  // Fallback: gera avatar padrão com iniciais
+  const initial = currentUser?.displayName?.[0]?.toUpperCase() || 'U';
+  return `https://ui-avatars.com/api/?name=${initial}&background=random&color=fff`;
+}
+
 // Guard para rotas protegidas
 export function requireAuth() {
   return initAuth.then(state => {
