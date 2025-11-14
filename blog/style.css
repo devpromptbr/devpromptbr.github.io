@@ -445,7 +445,7 @@ body {
     max-height: 90vh;
 
     background: #fff;
-    background: linear-gradient(180deg, rgba(254, 217, 167, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(180deg, rgb(13 17 23 / 62%) 0%, #1a1a2e8a 50%, rgb(13 17 23 / 45%) 100%);
 
     color: #7D4800;
     border-top-left-radius: 20px;
@@ -466,14 +466,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 16px 24px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .drawer-title {
     margin: 0;
     font-size: 18px;
     font-weight: 700;
-    color: #7D4800 !important;
+    color: #ffffff7a !important;
 }
 
 .drawer-close-button {
@@ -518,10 +518,10 @@ body {
 }
 
 .amount-input {
-    background: #fff;
+    background: transparent;
     border: none;
-    border-bottom: 1px solid #ccc;
-    color: #151515;
+    border-bottom: 1px solid #ffffff17;
+    color: #fff;
     font-size: 36px;
     font-weight: 700;
     width: 80%;
@@ -641,7 +641,7 @@ input[type="number"] {
 .bank-card span {
     font-size: 13px;
     font-weight: 600;
-    color: #333;
+    color: #ffffff7a;
     text-align: center;
 }
 
