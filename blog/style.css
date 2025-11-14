@@ -469,7 +469,7 @@ body {
 }
 
 .drawer-title {
-    margin: 0;
+    margin: 0 !important;
     font-size: 18px;
     font-weight: 500;
     color: #fff !important;
