@@ -231,7 +231,8 @@ body {
 .user-identity-card .user-info h3 {
     margin: 0;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
+    letter-spacing: 0.5px;
     color: #fff;
 }
 
