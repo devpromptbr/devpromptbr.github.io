@@ -1175,7 +1175,7 @@ input[type="number"] {
 
 .author-role {
   margin: 0 0 16px;
-  font-size: 0.9rem;
+  font-size: 0.9rem !important;
   color: rgba(255, 255, 255, 0.7);
 }
 
