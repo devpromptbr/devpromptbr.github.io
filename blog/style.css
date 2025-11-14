@@ -1014,6 +1014,8 @@ input[type="number"] {
   display: flex;
   flex-direction: column;
   animation: slideUp 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  background: linear-gradient(0deg, rgba(13, 17, 23, 1) 0%, rgba(13, 17, 23, 0.29) 80%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(10px);
 }
 
 @keyframes slideUp {
