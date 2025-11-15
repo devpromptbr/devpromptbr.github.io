@@ -895,8 +895,9 @@ input[type="number"] {
 
 .bottom-sheet-header {
   display: flex;
-  justify-content: center;
-  padding: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
 }
 
 .bottom-sheet-handle {
@@ -904,6 +905,26 @@ input[type="number"] {
   height: 4px;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 2px;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.bottom-sheet-close {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  transition: opacity 0.3s;
+  flex-shrink: 0;
+}
+
+.bottom-sheet-close:active {
+  opacity: 0.7;
 }
 
 .bottom-sheet-content {
@@ -1041,13 +1062,34 @@ input[type="number"] {
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  gap: 16px;
 }
 
 .modal-header h2 {
   margin: 0;
   font-size: 1.3rem;
   font-weight: 600;
-  color: #fff
+  color: #fff;
+  flex: 1;
+  text-align: center;
+}
+
+.modal-back {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  transition: opacity 0.3s;
+  flex-shrink: 0;
+}
+
+.modal-back:active {
+  opacity: 0.7;
 }
 
 .modal-close {
@@ -1061,6 +1103,7 @@ input[type="number"] {
   justify-content: center;
   padding: 8px;
   transition: opacity 0.3s;
+  flex-shrink: 0;
 }
 
 .modal-close:active {
