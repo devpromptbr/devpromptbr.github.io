@@ -1,5 +1,7 @@
 @font-face {
     font-family: "Google Sans Flex";
+    font-style: normal;
+    font-display: swap;
     src: url("https://db.onlinewebfonts.com/t/359daf377c374b65e821b9f218fc91ef.eot");
     src: url("https://db.onlinewebfonts.com/t/359daf377c374b65e821b9f218fc91ef.eot?#iefix") format("embedded-opentype"),
         url("https://db.onlinewebfonts.com/t/359daf377c374b65e821b9f218fc91ef.woff2") format("woff2"),
