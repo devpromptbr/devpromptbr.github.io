@@ -437,7 +437,7 @@ body {
         🔹 ESTILOS PARA OS DRAWERS (Bottom Sheets)
         ================================================== */
 .app-drawer {
-    font-family: "Inter", Arial, sans-serif;
+    
     position: fixed;
     bottom: 0;
     left: 0;
