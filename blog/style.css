@@ -761,7 +761,7 @@ input[type="number"] {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.95);
-  background: #fff;
+  background: rgba(8, 17, 46, 0.1);
   border-radius: 16px;
   padding: 32px;
   z-index: 2001;
@@ -771,6 +771,9 @@ input[type="number"] {
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
 }
 
 .auth-modal.visible {
@@ -780,14 +783,14 @@ input[type="number"] {
 }
 
 .auth-modal h2 {
-  color: #1a1a2e;
-  font-size: 24px;
+  color: #fff;
+  font-size: 23px;
   margin-bottom: 8px;
   text-align: center;
 }
 
 .auth-modal p {
-  color: #666;
+  color: #eee;
   font-size: 14px;
   text-align: center;
   margin-bottom: 24px;
