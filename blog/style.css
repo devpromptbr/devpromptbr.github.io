@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Google Sans Flex";
-    font-style: normal;
-    font-display: swap;
     src: url("https://db.onlinewebfonts.com/t/359daf377c374b65e821b9f218fc91ef.eot");
     src: url("https://db.onlinewebfonts.com/t/359daf377c374b65e821b9f218fc91ef.eot?#iefix") format("embedded-opentype"),
         url("https://db.onlinewebfonts.com/t/359daf377c374b65e821b9f218fc91ef.woff2") format("woff2"),
         url("https://db.onlinewebfonts.com/t/359daf377c374b65e821b9f218fc91ef.woff") format("woff"),
         url("https://db.onlinewebfonts.com/t/359daf377c374b65e821b9f218fc91ef.ttf") format("truetype"),
         url("https://db.onlinewebfonts.com/t/359daf377c374b65e821b9f218fc91ef.svg#Google Sans Flex") format("svg");
+    font-style: normal;
+    font-display: swap;
 }
 
 /* Seu grande bloco de CSS foi mantido aqui. */
@@ -439,7 +439,7 @@ body {
         🔹 ESTILOS PARA OS DRAWERS (Bottom Sheets)
         ================================================== */
 .app-drawer {
-    
+    font-family: "Google Sans Flex", Arial, sans-serif;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -529,6 +529,7 @@ body {
     text-align: center;
     outline: none;
     background: none;
+    font-family: "Google Sans Flex", Arial, sans-serif;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -790,6 +791,7 @@ input[type="number"] {
   font-size: 14px;
   text-align: center;
   margin-bottom: 24px;
+  font-weight: 500;
 }
 
 .auth-button-group {
@@ -812,6 +814,7 @@ input[type="number"] {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
+  font-family: 'Google-sans-flex', Arial, sans-serif;
 }
 
 .auth-button:hover {
