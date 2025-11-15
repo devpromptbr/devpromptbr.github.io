@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                   <div style="font-size:1.1rem;">Você vai transferir para:</div>
 
                                   <div style="margin-top:4px;font-weight: 600;font-size:1.2rem;letter-spacing:0.5px;">WALTEMAR CARNEIRO</div>
-                                  <div id="pixAmountRef" style="font-weight:700;color:#fff;font-size:36px;margin-top:12px;">R$ 0,00</div>
+                                  <div id="pixAmountRef" style="font-family:'Lexend',sans-seriaf;font-weight:600;color:#fff;font-size:36px;margin-top:12px;">R$ 0,00</div>
                                   <textarea id="pixCopyPaste" style="display:none; line-height:1.45; width:100%; height:80px; margin-top:8px;" readonly></textarea>
                                   <div style="margin-top:8px;">
                                      <a href="#" id="changeAmountLink" style="text-decoration:underline;font-size:1.1rem; color:#fff !important;">Deseja alterar o valor?</a>
