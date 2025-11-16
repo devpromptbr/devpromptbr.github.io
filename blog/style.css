@@ -1377,7 +1377,7 @@ input[type="number"] {
 
 /*PIX PULSE*/
 
-.icon-pulse {
+.icon-ghost {
   position: relative;
   display: inline-block;
   animation: pulse 1.5s infinite cubic-bezier(.4, 0, .2, 1);
@@ -1386,7 +1386,7 @@ input[type="number"] {
 }
 
 /* Rastro atrasado */
-.icon-pulse::after {
+.icon-ghost::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -1426,5 +1426,6 @@ input[type="number"] {
     transform: scale(1);
   }
 }
+
 
 /*end*/
