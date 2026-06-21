@@ -762,18 +762,18 @@ input[type="number"] {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.95);
-  background: rgba(8, 17, 46, 0.1);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 16px;
   padding: 32px;
   z-index: 2001;
   max-width: 420px;
   width: 90%;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  /*box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);*/
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease-in-out;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  /*backdrop-filter: blur(10px);*/
+  /*border: 1px solid rgba(255, 255, 255, 0.1);*/
   box-sizing: border-box;
 }
 
