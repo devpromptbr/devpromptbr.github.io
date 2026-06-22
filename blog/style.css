@@ -293,7 +293,7 @@ body {
     color: #fff;
     width: 100%;
     border-radius: 12px;
-    border: 1px solid rgb(202 202 202 / 25%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
