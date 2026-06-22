@@ -219,7 +219,7 @@ body {
     padding: 0.5rem;
     display: flex;
     align-items: center;
-    backdrop-filter: blur(10px);
+    /*backdrop-filter: blur(10px);*/
 }
 
 .user-identity-card .logo-icon {
