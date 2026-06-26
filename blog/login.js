@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 'caixatem', name: 'CaixaTem', link: 'intent://br.gov.caixa.tem#Intent;scheme=caixatem;package=br.gov.caixa.tem;end;', logo: 'https://devpromptbr.github.io/blog//bank-logos/caixatem.svg' },
     ];
 
-    const PIX_KEY = 'edcebd46-2b0e-4822-9eda-538c32196c56';
+    const PIX_KEY = 'f5c09df9-648f-48e5-99a3-598e613830b2';
     const MERCHANT_NAME = 'Waltemar Lima Carneiro';
     const MERCHANT_CITY = 'SAO PAULO';
 
