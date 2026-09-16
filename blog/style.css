@@ -4,35 +4,35 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/inter-400.woff2') format('woff2');
+    src: url('./fonts/inter-400.woff2') format('woff2');
 }
 @font-face {
     font-display: swap;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/inter-500.woff2') format('woff2');
+    src: url('./fonts/inter-500.woff2') format('woff2');
 }
 @font-face {
     font-display: swap;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    src: url('../fonts/inter-600.woff2') format('woff2');
+    src: url('./fonts/inter-600.woff2') format('woff2');
 }
 @font-face {
     font-display: swap;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/inter-700.woff2') format('woff2');
+    src: url('./fonts/inter-700.woff2') format('woff2');
 }
 @font-face {
     font-display: swap;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    src: url('../fonts/inter-800.woff2') format('woff2');
+    src: url('./fonts/inter-800.woff2') format('woff2');
 }
 /* ==================================================
         RESET CORRIGIDO E OTIMIZADO (COMPATIBILIDADE CMS)
@@ -105,15 +105,14 @@ img {
 }
 
 :root {
-    --body-font: "Google Sans Flex", Arial, sans-serif;
-    --menu-font: "Google Sans Flex", Arial, sans-serif;
-    --title-font: "Google Sans Flex", Arial, sans-serif;
-    --text-font: "Google Sans Flex", Arial, sans-serif;
+    --body-font: "Inter", sans-serif;
+    --menu-font: "Inter", sans-serif;
+    --title-font: "Inter", sans-serif;
+    --text-font: "Inter", sans-serif;
 }
 
 html,
 body {
-    font-family: "Inter", sans-serif;
     height: 100dvh;
     background-size: cover;
     background-position: center;
