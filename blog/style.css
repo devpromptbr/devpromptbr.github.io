@@ -46,7 +46,7 @@
     --menu-font: "Inter", sans-serif;
     --title-font: "Inter", sans-serif;
     --text-font: "Inter", sans-serif;
-    --pwa-text-muted: orange;
+    --pwa-text-muted: orange !important;
 }
 
 html,
