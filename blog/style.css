@@ -113,7 +113,7 @@ img {
 
 html,
 body {
-    font-family: "Google Sans Flex", Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     height: 100dvh;
     background-size: cover;
     background-position: center;
@@ -460,7 +460,6 @@ body {
         🔹 ESTILOS PARA OS DRAWERS (Bottom Sheets)
         ================================================== */
 .app-drawer {
-    font-family: "Google Sans Flex", Arial, sans-serif;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -563,7 +562,6 @@ input[type="number"] {
 }
 
 .primary-button {
-    font-family: "Inter", Arial, sans-serif;
     background-color: #f76700;
     color: #fff;
     border: none;
@@ -584,7 +582,6 @@ input[type="number"] {
 }
 
 .primary-button.disabled {
-    font-family: "Inter", Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0.1);
     cursor: not-allowed;
     color: #ffffff1e;
@@ -837,7 +834,6 @@ input[type="number"] {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
-  font-family: 'Google-sans-flex', Arial, sans-serif;
 }
 
 .auth-button:hover {
