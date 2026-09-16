@@ -5,7 +5,7 @@
     --pwa-surface: #f76700;
     --pwa-surface-hover: #f76700;
     --pwa-text-main: #151515;
-    --pwa-text-muted: purple;
+    --pwa-text-muted: #555555;
     --pwa-accent: #f76700; /* Azul Premium estilo YouTube */
     --pwa-radius: 16px;
     --pwa-transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease;
@@ -96,11 +96,11 @@
 
   .pwa-app-text p {
     color: var(--pwa-text-muted);
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 0;
     line-height: 1.4;
     text-align: left;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .pwa-sheet-actions {
