@@ -1,1 +1,148 @@
 
+
+  :root {
+    --pwa-bg: #f7f2f2;
+    --pwa-surface: #f76700;
+    --pwa-surface-hover: #f76700;
+    --pwa-text-main: #151515;
+    --pwa-text-muted: #151515;
+    --pwa-accent: #f76700; /* Azul Premium estilo YouTube */
+    --pwa-radius: 16px;
+    --pwa-transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease;
+  }
+
+  .pwa-bottom-sheet {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: none;
+    align-items: flex-end;
+    justify-content: center;
+    opacity: 0;
+    transition: var(--pwa-transition);
+  }
+
+  .pwa-bottom-sheet.pwa-active {
+    display: flex;
+    opacity: 1;
+  }
+
+  .pwa-sheet-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+  }
+
+  .pwa-sheet-content {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    background: var(--pwa-bg);
+    border-radius: var(--pwa-radius) var(--pwa-radius) 0 0;
+    padding: 16px 24px 32px 24px;
+    box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.5);
+    transform: translateY(100%);
+    transition: var(--pwa-transition);
+    box-sizing: border-box;
+  }
+
+  .pwa-bottom-sheet.pwa-active .pwa-sheet-content {
+    transform: translateY(0);
+  }
+
+  .pwa-sheet-handle {
+    width: 40px;
+    height: 4px;
+    background: darkgray;
+    border-radius: 2px;
+    margin: 0 auto 20px auto;
+  }
+
+  .pwa-app-info {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .pwa-app-icon-preview {
+    width: 56px;
+    height: 56px;
+    background: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0,0,0,0.1);
+    flex-shrink: 0;
+  }
+
+  .pwa-app-icon-preview svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .pwa-app-text h3 {
+    color: var(--pwa-text-main);
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    margin: 0 0 4px 0;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .pwa-app-text p {
+    color: var(--pwa-text-muted);
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .pwa-sheet-actions {
+    display: flex;
+    gap: 12px;
+  }
+
+  .pwa-btn {
+    flex: 1;
+    height: 48px; /* Touch target ideal para mobile */
+    border-radius: 24px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  .pwa-btn-primary {
+    background: var(--pwa-accent);
+    color: #ffffff;
+  }
+
+  .pwa-btn-primary:hover {
+    background: var(--pwa=accent);
+  }
+
+  .pwa-btn-secondary {
+    background: transparent;
+    color: var(--pwa-text-main);
+    border: 1px solid #aaaaaa;
+  }
+
+  .pwa-btn-secondary:hover {
+    background: rggb(0,0,0,0.2);
+  }
+
+  /* Adaptação Desktop sutil */
+  @media (min-width: 501px) {
+    .pwa-sheet-content {
+      border-radius: var(--pwa-radius);
+      margin-bottom: 20px;
+      width: 90%;
+    }
+  }
