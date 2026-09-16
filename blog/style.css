@@ -46,6 +46,7 @@
     --menu-font: "Inter", sans-serif;
     --title-font: "Inter", sans-serif;
     --text-font: "Inter", sans-serif;
+    --pwa-text-muted: orange;
 }
 
 html,
@@ -1460,5 +1461,5 @@ input[type="number"] {
 /*banner pwa install*/
 .pwa-app-text{
     font-weight: 800;
-    color: orange;
+    color: var(--pwa-text-muted);
 }
