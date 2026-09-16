@@ -37,8 +37,31 @@
 }
 /* ==================================================
         RESET CORRIGIDO E OTIMIZADO (COMPATIBILIDADE CMS)
-        ================================================== */
+    ================================================== */
 /* 1. Elementos que DEVEM ser escondidos (display: none) */
+
+
+:root {
+    --body-font: "Inter", sans-serif;
+    --menu-font: "Inter", sans-serif;
+    --title-font: "Inter", sans-serif;
+    --text-font: "Inter", sans-serif;
+}
+
+html,
+body {
+    height: 100dvh;
+    background-size: cover;
+    background-position: center;
+    background-color: #181818;
+    width: 100%;
+    /*overflow: hidden;*/
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: var(--body-font);
+}
+
 .entry-title,
 #sidebar-wrapper,
 #back-top {
@@ -103,26 +126,6 @@ a:focus {
 
 img {
     pointer-events: none;
-}
-
-:root {
-    --body-font: "Inter", sans-serif;
-    --menu-font: "Inter", sans-serif;
-    --title-font: "Inter", sans-serif;
-    --text-font: "Inter", sans-serif;
-}
-
-html,
-body {
-    height: 100dvh;
-    background-size: cover;
-    background-position: center;
-    background-color: #181818;
-    width: 100%;
-    /*overflow: hidden;*/
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
 }
 
 /* --- O Container Principal (Tela do App) --- */
