@@ -1458,4 +1458,7 @@ input[type="number"] {
 /*end*/
 
 /*banner pwa install*/
-.pwa-app-text{font-weight: 800;}
+.pwa-app-text{
+    font-weight: 800;
+    color: orange;
+}
