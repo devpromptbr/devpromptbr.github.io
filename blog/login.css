@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Onest:wght@100..900&display=swap');
-
 @font-face {
     font-display: swap;
     font-family: 'Inter';
@@ -36,12 +35,55 @@
     src: url('./fonts/inter-800.woff2') format('woff2');
 }
 
-/* Seu grande bloco de CSS foi mantido aqui. */
-/* Eu o deixei indentado e compactado dentro da tag <style> */
+/* ================================
+🔹 CONFIGURAÇÕES GLOBAIS E OVERLAY
+   ================================ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-touch-callout: none;
+    touch-action: manipulation;
+    -webkit-user-drag: none;
+}
+
+:root {
+    --body-font: "Inter", sans-serif;
+    --menu-font: "Inter", sans-serif;
+    --title-font: "Inter", sans-serif;
+    --text-font: "Inter", sans-serif;
+}
+
+html,
+body {
+    font-family: "Inter", sans-serif;
+    height: 100dvh;
+    background-size: cover;
+    background-position: center;
+    background-color: #181818;
+    width: 100%;
+    /*overflow: hidden;*/
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+a:hover,
+a:focus {
+    /*color: #ffa500;*/
+    text-decoration: underline;
+}
+
+img {
+    pointer-events: none;
+}
 
 /* ==================================================
-        RESET CORRIGIDO E OTIMIZADO (COMPATIBILIDADE CMS)
-        ================================================== */
+    RESET CORRIGIDO E OTIMIZADO (COMPATIBILIDADE CMS)
+    ================================================== */
+
 /* 1. Elementos que DEVEM ser escondidos (display: none) */
 .entry-title,
 #sidebar-wrapper,
@@ -83,51 +125,6 @@
     color: #fff;
     text-decoration: none !important;
     font-weight: 300 !important;
-}
-
-/* =====================
-        🔹 CONFIGURAÇÕES GLOBAIS E OVERLAY
-        ====================== */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    -webkit-tap-highlight-color: transparent;
-    user-select: none;
-    -webkit-touch-callout: none;
-    touch-action: manipulation;
-    -webkit-user-drag: none;
-}
-
-a:hover,
-a:focus {
-    /*color: #ffa500;*/
-    text-decoration: underline;
-}
-
-img {
-    pointer-events: none;
-}
-
-:root {
-    --body-font: "Google Sans Flex", Arial, sans-serif;
-    --menu-font: "Google Sans Flex", Arial, sans-serif;
-    --title-font: "Google Sans Flex", Arial, sans-serif;
-    --text-font: "Google Sans Flex", Arial, sans-serif;
-}
-
-html,
-body {
-    font-family: "Google Sans Flex", Arial, sans-serif;
-    height: 100dvh;
-    background-size: cover;
-    background-position: center;
-    background-color: #181818;
-    width: 100%;
-    /*overflow: hidden;*/
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
 }
 
 /* --- O Container Principal (Tela do App) --- */
@@ -465,7 +462,7 @@ body {
         🔹 ESTILOS PARA OS DRAWERS (Bottom Sheets)
         ================================================== */
 .app-drawer {
-    font-family: "Google Sans Flex", Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     position: fixed;
     bottom: 0;
     left: 0;
