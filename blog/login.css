@@ -124,7 +124,7 @@ img {
 .post-body a {
     color: #fff;
     text-decoration: none !important;
-    font-weight: 300 !important;
+    /*font-weight: 300 !important;*/
 }
 
 /* --- O Container Principal (Tela do App) --- */
