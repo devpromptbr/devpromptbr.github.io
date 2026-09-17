@@ -98,8 +98,9 @@ img {
 #content-wrapper .container,
 .item-post-inner {
     background: none !important;
-    padding: 0 !important;
     box-shadow: none !important;
+    min-width: 100vw;
+    padding: 0;
 }
 
 /* 3. Elemento que abriga o conteúdo (Apenas define cor e margem/padding) */
@@ -111,14 +112,11 @@ img {
 }
 
 /* 4. Configurações de largura e alinhamento */
-.row-x1,
-#content-wrapper .container {
+.row-x1{
     width: 100%;
+    
 }
 
-#content-wrapper .container {
-    justify-content: center;
-}
 
 /* 5. Estilos de Links */
 .post-body a {
