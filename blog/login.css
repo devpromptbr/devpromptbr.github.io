@@ -796,7 +796,7 @@ input[type="number"] {
   /*background: rgba(0, 0, 0, 0.2);*/
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .auth-modal.visible {
